@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .counter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0066b2;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.5);
+  }
+  
+  #value {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
